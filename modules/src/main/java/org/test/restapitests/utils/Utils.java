@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import org.jboss.eap.additional.testsuite.annotations.EAT;
 
-@EAT({"modules/testcases/v1/bookApiTestsuite/src/main/java","modules/testcases/v1/authorApiTestsuite/src/main/java","modules/testcases/v1/performanceApiTestsuite/src/main/java","modules/testcases/v1/happyPathApiTestsuite/src/main/java"})
+@EAT({"modules/testcases/v1/bookApiTestsuite/src/main/java","modules/testcases/v1/authorApiTestsuite/src/main/java","modules/testcases/v1/performanceApiTestsuite/src/main/java","modules/testcases/v1/happyPathApiTestsuite/src/main/java","modules/testcases/v1/restApiEdgeTestsuite/src/main/java"})
 public class Utils {
 
     /**
