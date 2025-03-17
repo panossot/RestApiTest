@@ -1,0 +1,19 @@
+Method: testGet
+Failure: org.opentest4j.AssertionFailedError: 
+Test 200: description mismatch. ==> expected: <Lorem no ipsum et consetetur laoreet lorem. Feugiat magna erat diam dolore aliquyam wisi erat elitr iusto ex accusam diam tincidunt sed nonumy justo est kasd. Consetetur vel nibh nostrud autem ipsum ea erat lorem augue ea labore sea aliquyam rebum erat. Et est diam at takimata et et lobortis no labore no. Sed duo magna amet dolor luptatum sed et duo et ipsum stet. Augue nonumy amet voluptua. Amet ullamcorper tempor erat amet dolore quod minim labore dolor sed te. Amet dolor rebum et velit id ipsum. Stet praesent nulla. Diam vel est takimata labore stet et diam minim dolore sit consequat stet amet amet amet et. Suscipit rebum magna aliquyam invidunt magna sed molestie no sed. Consetetur et exerci vulputate nisl sit iriure facilisi odio at et elitr. Facer aliquyam dolore esse dolor tation eum ut voluptua.
+> but was: <Labore takimata voluptua dolores feugiat esse diam magna et. Consetetur consetetur soluta consetetur invidunt dolor dolore amet erat labore lorem dolore. Et vero wisi diam erat stet soluta clita vel et et lorem justo magna rebum nulla justo minim. Vero tempor dolore sea dolore dolor stet stet sea illum accumsan magna sadipscing duo diam molestie. Amet aliquam eum molestie et at labore sea. Stet invidunt et dolor eum luptatum erat dolore sea facilisi dolore. Ipsum ullamcorper esse sit voluptua aliquyam dolor sanctus ut lobortis. Clita dolor elitr id takimata dolor consequat lorem labore sit. Diam eleifend nonumy dolore eirmod ullamcorper et in vero kasd amet magna. Ea et ipsum zzril sadipscing accusam et erat dolor justo tincidunt et rebum lobortis in sit et nonumy id. Consequat labore sanctus sadipscing consetetur doming sed amet et ea duo diam dolore vero sadipscing lorem duo suscipit. Consetetur augue duis aliquyam sit. Euismod autem dolore in diam mazim ipsum et clita no sit duis et vero. Nisl dolore est sit nostrud et sed clita takimata ut at invidunt et amet lorem facilisi nonumy sed dolor.
+>
+	at fakerestapitests.BooksApiTests.testGet(BooksApiTests.java:109)
+
+Method: testPost
+Failure: org.opentest4j.AssertionFailedError: New Book registration/update failed : publishDate mismatch ==> expected: <2025-03-16T09:37:40+02:00> but was: <2025-03-16T07:37:40+00:00>
+	at fakerestapitests.BooksApiTests.testPost(BooksApiTests.java:133)
+
+Method: testPut
+Failure: org.opentest4j.AssertionFailedError: New Book registration/update failed : publishDate mismatch ==> expected: <2025-03-16T09:37:40+02:00> but was: <2025-03-16T07:37:40+00:00>
+	at fakerestapitests.BooksApiTests.testPut(BooksApiTests.java:156)
+
+Method: testDelete
+Failure: org.opentest4j.AssertionFailedError: Test 1 (DELETE Books/1) failed: Book not deleted ==> expected: <404> but was: <200>
+	at fakerestapitests.BooksApiTests.testDelete(BooksApiTests.java:171)
+
